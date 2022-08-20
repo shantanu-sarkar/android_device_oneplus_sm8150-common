@@ -89,9 +89,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio@4.0.vendor \
+    android.hardware.soundtrigger@2.1-impl \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
-    android.hardware.soundtrigger@2.1-impl \
+    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio-impl \
+    audio.primary.default \
+    audio.primary.msmnile \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
@@ -150,11 +154,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     liba2dpoffload \
     libbthost_if \
-    android.hardware.bluetooth.audio@2.0 \
-    android.hardware.bluetooth.audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    audio.primary.default \
-    audio.primary.msmnile \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
